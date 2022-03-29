@@ -1,7 +1,7 @@
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import logoSvg from "../../../public/logo.svg";
-import { SigninButton } from "../SigninButton";
+import { SignInButton } from "../SigninButton";
 
 export function Header() {
   return (
@@ -12,7 +12,7 @@ export function Header() {
           <a className={styles.active}>Home</a>
           <a>Posts</a>
         </nav>
-        <SigninButton />
+        <SignInButton />
       </div>
     </header>
   );
