@@ -55,11 +55,7 @@ export default function PostPreview({ post }: PostPreviewProps) {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [
-      {
-        params: { slug: "visoes-inovadoras-do-codigo-livre-e-do-open-source" },
-      },
-    ],
+    paths: [],
     fallback: "blocking",
   };
 };
